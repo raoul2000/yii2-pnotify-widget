@@ -15,6 +15,9 @@
 			"email" : "raoul.boulard@gmail.com"
 		}
 	],
+	"require" : {
+		"yiisoft/yii2" : "*"
+	},
 	"autoload" : {
 		"psr-4" : {
 			"raoul2000\\widget\\pnotify\\" : ""
