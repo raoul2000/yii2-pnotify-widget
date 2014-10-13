@@ -64,6 +64,7 @@ provided by PNotify.
 				'dir2' => 'right',
 				'push' => 'top'
 			]
+		],
 		$this
 	);
 	
