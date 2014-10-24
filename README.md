@@ -2,9 +2,9 @@ yii2-pnotify-widget
 ==================
 Wrapper around PNotify, a JavaScript notifications plugin for Bootstrap and jQuery UI.
 
-Check out the  [PNotify Website](http://sciactive.com/pnotify/) for demo of the Plugin.
+Check out the  [PNotify Website](http://sciactive.com/pnotify/) for a demo of the Plugin.
 
-**important** : please note that this widget only include the basic PNotify modules : *desktop* and *buttons*
+**important** : please note that this widget only includes the basic PNotify modules : *desktop* and *buttons*
 
 Installation
 ------------
@@ -29,7 +29,7 @@ to the require section of your `composer.json` file.
 Usage
 -----
 
-Once the extension is installed, simply use it in your code by  :
+Once the extension is installed, simply use it in your code like this  :
 
 ```php
 <?php 
@@ -44,9 +44,9 @@ Once the extension is installed, simply use it in your code by  :
 
 Stacks
 ------
-This widget includes an easy way of creating and using custom stacks that will drive the way PNotify dispplays notification messages.
+This widget includes an easy way of creating and using custom stacks that will drive the way PNotify displays notification messages.
 
-To know more about PNotify Stacks, please refer to the [documentation](https://github.com/sciactive/pnotify/blob/master/README.md).
+To know more about **PNotify** Stacks, please refer to the [documentation](https://github.com/sciactive/pnotify/blob/master/README.md).
 
 Defining a stack with the widget is easy. The example below defines a stack that will display notification vertically in the top-left corner.
 Then, use this stack (called "stack_top_left") to display a notification. The CSS class *stack-topleft* is part of the built-in CSS classes
